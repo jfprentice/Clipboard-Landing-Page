@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+}
+
+section{
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+.hero{
+  background-image: url("images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+.hero-logo{
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+button{
+  width: 20rem;
+  border-radius: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 25px auto 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.ios{
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 3px #259C87;
+}
+
+.ios:active{
+  background-color: #5DCCBB;
+}
+
+.mac{
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 3px #5665C1;
+}
+
+.mac:active{
+  background-color: #8896FF;
+}
+
+.main-images{
+  width: 100%;
+  height: auto;
+}
+
+.snippets{
+
+}
+
+.clipboard{
+
+}
+
+.workflow{
+
+}
+
+.companies img{
+  display: block;
+  margin: 5rem auto;
+}
+
+.downloads{
+
+}
+
+footer{
+  background-color: #F5F6F8;
+  text-align: center;
+}
+
+.footer-logo{
+  width: 3rem;
+  margin: 50px auto 15px;
+}
+
+.footer-link{
+  display: block;
+  margin: 25px auto;
+  text-decoration: none;
+  color: #000;
+}
+
+.icon{
+  display: inline;
+  margin: 10px 20px;
+}
+
+.footer-link:active{
+  color: #5DCCBB;
+  /* Figure out how to change icon color on click */
+  /* fill: #5DCCBB; */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
