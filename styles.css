@@ -4,22 +4,42 @@ body{
   box-sizing: border-box;
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 18px;
+  color: hsl(201, 11%, 66%);
+}
+
+h1, h2, h3{
+  margin: auto 45px 15px;
+  color: hsl(210, 10%, 33%);
+}
+
+p{
+  margin: auto 15px 25px;
+  line-height: 1.6;
+}
+
+a{
+  color: hsl(210, 10%, 33%);
 }
 
 section{
-  margin-bottom: 200px;
   text-align: center;
+  margin-bottom: 200px;
 }
 
 .hero{
   background-image: url("images/bg-header-mobile.png");
   background-repeat: no-repeat;
   background-size: 100vw;
+
 }
 
 .hero-logo{
   margin-top: 150px;
   margin-bottom: 50px;
+}
+
+.hero-title{
+  margin: auto 45px 15px;
 }
 
 button{
@@ -54,30 +74,47 @@ button{
   background-color: #8896FF;
 }
 
+.clipboard{
+  margin-bottom: 100px;
+}
+
 .main-images{
+  margin: 25px 5px 50px;
+}
+
+.computer{
+  width: 90%;
+  height: auto;
+}
+
+.snip{
+  margin-bottom: 50px;
+}
+
+.mobile{
   width: 100%;
   height: auto;
 }
 
-.snippets{
-
-}
-
-.clipboard{
-
-}
-
 .workflow{
+  margin-bottom: 150px;
+}
 
+.workflow-text{
+  margin-bottom: 75px;
+}
+
+.workflow img{
+  margin-bottom: 25px;
+}
+
+.blurb{
+  margin-bottom: 50px;
 }
 
 .companies img{
   display: block;
-  margin: 5rem auto;
-}
-
-.downloads{
-
+  margin: 0  auto 100px;
 }
 
 footer{
@@ -94,7 +131,7 @@ footer{
   display: block;
   margin: 25px auto;
   text-decoration: none;
-  color: #000;
+  color: hsl(210, 10%, 33%);
 }
 
 .icon{
@@ -109,6 +146,7 @@ footer{
 }
 
 .attribution {
+  margin-top: 15px;
   font-size: 11px;
   text-align: center;
 }
