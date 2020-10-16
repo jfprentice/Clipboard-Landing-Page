@@ -53,6 +53,7 @@ button {
   color: #fff;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .ios {
@@ -62,6 +63,7 @@ button {
 
 .ios:active {
   background-color: #5DCCBB;
+  text-decoration: none;
 }
 
 .mac {
@@ -71,6 +73,7 @@ button {
 
 .mac:active {
   background-color: #8896FF;
+  text-decoration: none;
 }
 
 .clipboard {
@@ -239,7 +242,7 @@ footer {
   }
 
   .link-container :nth-child(4) {
-    order: 2;
+    order: 5;
   }
 
   .link-container :nth-child(5) {
