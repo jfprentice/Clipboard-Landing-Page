@@ -7,6 +7,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
@@ -30,16 +32,25 @@
     <h2>Keep track of your snippets</h2>
     <p class="snippets-text">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
 
-    <img class="main-images computer" src="images/image-computer.png" alt="Desktop Computer">
-
-    <h3>Quick Search</h3>
-    <p class="snip">Easily search your snippets by content, category, web address, application, and more.</p>
-
-    <h3>iCloud Sync</h3>
-    <p class="snip">Instantly saves and syncs snippets across all your devices.</p>
-
-    <h3>Complete History</h3>
-    <p class="snip">Retrieve any snippets from the first moment you started using the app.</p>
+    <div class="snippets-flexbox">
+      <div class="snippets-fb-child1">
+        <img class="main-images computer" src="images/image-computer.png" alt="Desktop Computer">
+      </div>
+      <div class="snippets-fb-child2">
+        <div class="fb-child2-div">
+          <h3>Quick Search</h3>
+          <p class="snip">Easily search your snippets by content, category, web address, application, and more.</p>
+        </div>
+        <div class="fb-child2-div">
+          <h3>iCloud Sync</h3>
+          <p class="snip">Instantly saves and syncs snippets across all your devices.</p>
+        </div>
+        <div class="fb-child2-div">
+          <h3>Complete History</h3>
+          <p class="snip">Retrieve any snippets from the first moment you started using the app.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="clipboard">
@@ -50,20 +61,28 @@
   </section>
 
   <section class="workflow">
+
     <h2>Supercharge your workflow</h2>
     <p class="workflow-text">We’ve got the tools to boost your productivity.</p>
 
-    <img src="images/icon-blacklist.svg" alt="Blacklist icon">
-    <h3>Create blacklists</h3>
-    <p class="blurb">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+    <div class="workflow-flexbox">
+      <div class="workflow-fc">
+        <img src="images/icon-blacklist.svg" alt="Blacklist icon">
+        <h3>Create blacklists</h3>
+        <p class="blurb">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+      </div>
+      <div class="workflow-fc">
+        <img src="images/icon-text.svg" alt="Text icon">
+        <h3>Plain text snippets</h3>
+        <p class="blurb">Remove unwanted formatting from copied text for a consistent look.</p>
+      </div>
+      <div class="workflow-fc">
+        <img src="images/icon-preview.svg" alt="Preview icon">
+        <h3>Sneak preview</h3>
+        <p class="blurb">Quick preview of all snippets on your Clipboard for easy access.</p>
+      </div>
+    </div>
 
-    <img src="images/icon-text.svg" alt="Text icon">
-    <h3>Plain text snippets</h3>
-    <p class="blurb">Remove unwanted formatting from copied text for a consistent look.</p>
-
-    <img src="images/icon-preview.svg" alt="Preview icon">
-    <h3>Sneak preview</h3>
-    <p class="blurb">Quick preview of all snippets on your Clipboard for easy access.</p>
   </section>
 
   <section class="companies">
@@ -86,21 +105,41 @@
 
     <img class="footer-logo" src="images/logo.svg" alt="Clipboard Logo">
 
-    <a class="footer-link" href="#">FAQs</a>
-    <a class="footer-link" href="#">Contact Us</a>
-    <a class="footer-link" href="#">Privacy Policy</a>
-    <a class="footer-link" href="#">Press Kit</a>
-    <a class="footer-link" href="#">Install Guide</a>
+    <div class="link-container">
+      <div class="link-div 1">
+        <a class="footer-link" href="#">FAQs</a>
+      </div>
+      <div class="link-div 2">
+        <a class="footer-link" href="#">Contact Us</a>
+      </div>
+      <div class="link-div 3">
+        <a class="footer-link" href="#">Privacy Policy</a>
+      </div>
+      <div class="link-div 4">
+        <a class="footer-link" href="#">Press Kit</a>
+      </div>
+      <div class="link-div 5">
+        <a class="footer-link" href="#">Install Guide</a>
+      </div>
+    </div>
 
-    <a class="footer-link icon" href="#"><img src="images/icon-facebook.svg" alt="Facebook Logo"></a>
-    <a class="footer-link icon" href="#"><img src="images/icon-twitter.svg" alt="Twitter Logo"></a>
-    <a class="footer-link icon" href="#"><img src="images/icon-instagram.svg" alt="Instagram Logo"></a>
 
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://www.frontendmentor.io/profile/jfprentice" target="_blank">Josh Prentice</a>.
-    </p>
+    <div class="icon-container">
+      <a class="footer-link icon" href="#"><i class="fab fa-facebook-square"></i></a>
+      <a class="footer-link icon" href="#"><i class="fab fa-twitter"></i></a>
+      <a class="footer-link icon" href="#"><i class="fab fa-instagram"></i></a>
+    </div>
 
-  </footer </body>
+
+
+
+  </footer>
+
+  <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/jfprentice" target="_blank">Josh Prentice</a>.
+  </p>
+
+</body>
 
 </html>
